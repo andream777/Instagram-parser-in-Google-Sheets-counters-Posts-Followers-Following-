@@ -3,15 +3,17 @@ Instagram parser in Google Sheets: counters (Posts, Followers, Following)
 
 [CODE GS](https://script.google.com/d/1aKfMzQ4ozKI-bW-cTpNObuSYSPBJZ1VjtSGYKRmUuNylulHvgqCe_c2h/edit?usp=sharing)
 function call:
-`=instagram($A3;C$1)`\n
+`=instagram($A3;C$1)`
+
 ----------------function have 2 argumets:--------------------
 1. URL or ID (https://www.instagram.com/skatray/ or skatray);
 2. Followers,Following,Posts.
+
 --------------------Example:---------------------------------
-`=instagram("skatray";"Followers")`
-`=instagram("skatray";"Following")`
-`=instagram("skatray";"Posts")`
-`=instagram($A2;B$1)`
+`=instagram("skatray";"Followers")`;
+`=instagram("skatray";"Following")`;
+`=instagram("skatray";"Posts")`;
+`=instagram($A2;B$1)`.
 -------------------------------------------------------------
 ```
 var person = [];
