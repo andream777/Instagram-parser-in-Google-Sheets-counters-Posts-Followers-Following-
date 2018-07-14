@@ -1,7 +1,7 @@
 Instagram parser in Google Sheets: counters (Posts, Followers, Following)
+
 [Example Google Sheet with Script](https://docs.google.com/spreadsheets/d/1QqmHKbYIc2vKUlYPVNEOK0_K5-Yzgryni9edVybKxhQ/edit?usp=sharing)
 
-[CODE GS](https://script.google.com/d/1aKfMzQ4ozKI-bW-cTpNObuSYSPBJZ1VjtSGYKRmUuNylulHvgqCe_c2h/edit?usp=sharing)
 function call:
 `=instagram($A3;C$1)`
 
@@ -18,6 +18,8 @@ function call:
 `=instagram("skatray";"Posts")`;
 
 `=instagram($A2;B$1)`.
+
+[CODE GS](https://script.google.com/d/1aKfMzQ4ozKI-bW-cTpNObuSYSPBJZ1VjtSGYKRmUuNylulHvgqCe_c2h/edit?usp=sharing)
 
 ```
 var person = [];
