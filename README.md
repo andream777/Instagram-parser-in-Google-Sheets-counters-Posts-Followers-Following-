@@ -9,12 +9,16 @@ function call:
 1. URL or ID (https://www.instagram.com/skatray/ or skatray);
 2. Followers,Following,Posts.
 
---------------------Example:---------------------------------
+-Example:-
+
 `=instagram("skatray";"Followers")`;
+
 `=instagram("skatray";"Following")`;
+
 `=instagram("skatray";"Posts")`;
+
 `=instagram($A2;B$1)`.
--------------------------------------------------------------
+
 ```
 var person = [];
 function Instagram(id,action){
